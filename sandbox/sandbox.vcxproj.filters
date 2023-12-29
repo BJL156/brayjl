@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\brayjl">
+      <UniqueIdentifier>{54F91D63-C063-D2D9-09A2-837F754BB02E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\brayjl\source">
+      <UniqueIdentifier>{F4D472E4-E0CD-9136-0900-77BBF5577142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\brayjl\source\brayjl">
+      <UniqueIdentifier>{871A0CF2-F351-5489-FC5B-B8AC68127B82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies">
+      <UniqueIdentifier>{B7EDF427-2379-62EC-2C8A-E5E09894BEEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog">
+      <UniqueIdentifier>{0F4AED38-FB43-168B-E4B0-AC9BD0497CF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include">
+      <UniqueIdentifier>{82106F9C-6E36-3903-577C-BECE43415ECF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include\spdlog">
+      <UniqueIdentifier>{7AFAA0B6-E6BE-9FA6-AF24-D0701BA83BDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include\spdlog\cfg">
+      <UniqueIdentifier>{F91F49BB-653A-AC5C-AE5C-BCF01AB6D363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include\spdlog\details">
+      <UniqueIdentifier>{EFC421C6-5B35-243F-2454-9EC790835C40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include\spdlog\fmt">
+      <UniqueIdentifier>{B02D49BB-1C48-AC5C-656A-BCF0D1C3D363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include\spdlog\fmt\bundled">
+      <UniqueIdentifier>{9DFC7FDA-09C3-DCF6-521E-6B59BE234B5B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\dependencies\spdlog\include\spdlog\sinks">
+      <UniqueIdentifier>{715B34B3-DDC0-C739-6699-6912D2FDBCA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{76FF3A1C-62A1-65F2-4B5C-7946379DEC42}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\sandbox.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log.txt" />
+  </ItemGroup>
+</Project>

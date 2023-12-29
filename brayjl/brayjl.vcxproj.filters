@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="brayjl">
+      <UniqueIdentifier>{69BDBEF4-555F-E9CA-3E1A-FD1E2A5B701B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4A63C33C-3630-1E48-5F49-0CF04B7553D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\window">
+      <UniqueIdentifier>{11ADEEE2-7D38-5CA7-8649-DF9BF253B8A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\brayjl.hpp" />
+    <ClInclude Include="source\brayjl\application.hpp">
+      <Filter>brayjl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\brayjl\entryPoint.hpp">
+      <Filter>brayjl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\brayjl\logger.hpp">
+      <Filter>brayjl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\platform\window\Window.hpp">
+      <Filter>platform\window</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\brayjl\application.cpp">
+      <Filter>brayjl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\brayjl\logger.cpp">
+      <Filter>brayjl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\platform\window\Window.cpp">
+      <Filter>platform\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
