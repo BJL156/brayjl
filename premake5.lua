@@ -16,15 +16,17 @@ project "brayjl"
 	location "brayjl"
 
 	files {
-		"brayjl/**.hpp",
+		"brayjl/**.c",
 		"brayjl/**.h",
 		"brayjl/**.cpp",
+		"brayjl/**.hpp"
 	}
 
 	includedirs {
 		"brayjl/source",
 		"dependencies/spdlog/include",
-		"dependencies/glfw/include"
+		"dependencies/glfw/include",
+		"dependencies/glad/include"
 	}
 
 	libdirs {
@@ -50,17 +52,19 @@ project "sandbox"
 	targetdir "bin/%{cfg.buildcfg}"
 	objdir "bin/%{cfg.buildcfg}/obj"
 	location "sandbox"
-
+	
 	files {
-		"sandbox/**.hpp",
+		"sandbox/**.c",
 		"sandbox/**.h",
 		"sandbox/**.cpp",
+		"sandbox/**.hpp"
 	}
 
 	includedirs {
 		"brayjl/source",
 		"dependencies/spdlog/include",
-		"dependencies/glfw/include"
+		"dependencies/glfw/include",
+		"dependencies/glad/include"
 	}
 
 	libdirs {

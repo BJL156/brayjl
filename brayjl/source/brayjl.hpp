@@ -7,6 +7,6 @@
 #include "brayjl/entryPoint.hpp"
 #include "brayjl/logger.hpp"
 
-#include "platform/window/Window.hpp"
+#include "platform/window/window.hpp"
 
 #endif // !BRAYJL_HPP

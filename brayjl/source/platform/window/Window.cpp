@@ -35,5 +35,9 @@ namespace brayjl {
 			BRAYJL_CORE_ERROR("failed to create glfw window.");
 		}
 		glfwMakeContextCurrent(m_Window);
+
+		if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+			BRAYJL_CORE_ERROR("failed to initialize glad.");
+		}
 	}
 }

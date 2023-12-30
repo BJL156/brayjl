@@ -1,6 +1,7 @@
 #ifndef WINDOW_HPP
 #define WINDOW_HPP
 
+#include <glad/glad.h>
 #include <glfw/glfw3.h>
 
 #include "brayjl/logger.hpp"
@@ -17,7 +18,6 @@ namespace brayjl {
 		void update();
 
 		bool shouldClose() { return glfwWindowShouldClose(m_Window); }
-
 	private:
 		void createGlfwWindow();
 

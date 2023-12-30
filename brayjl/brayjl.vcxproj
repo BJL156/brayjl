@@ -56,7 +56,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>source;..\dependencies\spdlog\include;..\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>source;..\dependencies\spdlog\include;..\dependencies\glfw\include;..\dependencies\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <ExternalWarningLevel>Level3</ExternalWarningLevel>
@@ -75,7 +75,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>source;..\dependencies\spdlog\include;..\dependencies\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>source;..\dependencies\spdlog\include;..\dependencies\glfw\include;..\dependencies\glad\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -98,12 +98,17 @@
     <ClInclude Include="source\brayjl\application.hpp" />
     <ClInclude Include="source\brayjl\entryPoint.hpp" />
     <ClInclude Include="source\brayjl\logger.hpp" />
-    <ClInclude Include="source\platform\window\Window.hpp" />
+    <ClInclude Include="source\brayjl\utils.hpp" />
+    <ClInclude Include="source\platform\opengl\shader.hpp" />
+    <ClInclude Include="source\platform\window\window.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="glad.c" />
     <ClCompile Include="source\brayjl\application.cpp" />
     <ClCompile Include="source\brayjl\logger.cpp" />
-    <ClCompile Include="source\platform\window\Window.cpp" />
+    <ClCompile Include="source\brayjl\utils.cpp" />
+    <ClCompile Include="source\platform\opengl\shader.cpp" />
+    <ClCompile Include="source\platform\window\window.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

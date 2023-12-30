@@ -1,40 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="brayjl">
-      <UniqueIdentifier>{69BDBEF4-555F-E9CA-3E1A-FD1E2A5B701B}</UniqueIdentifier>
+    <Filter Include="source">
+      <UniqueIdentifier>{76FF3A1C-62A1-65F2-4B5C-7946379DEC42}</UniqueIdentifier>
     </Filter>
-    <Filter Include="platform">
-      <UniqueIdentifier>{4A63C33C-3630-1E48-5F49-0CF04B7553D6}</UniqueIdentifier>
+    <Filter Include="source\brayjl">
+      <UniqueIdentifier>{C91E2F5F-35DF-AA95-FE19-F4126A99EF71}</UniqueIdentifier>
     </Filter>
-    <Filter Include="platform\window">
-      <UniqueIdentifier>{11ADEEE2-7D38-5CA7-8649-DF9BF253B8A7}</UniqueIdentifier>
+    <Filter Include="source\platform">
+      <UniqueIdentifier>{AA9CD104-1628-3FC9-1F39-C2BD8B439BC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform\opengl">
+      <UniqueIdentifier>{FE3A237E-EA34-4CD0-D3A1-E2E0BF3AB23C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform\window">
+      <UniqueIdentifier>{719A5290-5D94-7BE2-4601-12F3329AE14E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="source\brayjl.hpp" />
+    <ClInclude Include="source\brayjl.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
     <ClInclude Include="source\brayjl\application.hpp">
-      <Filter>brayjl</Filter>
+      <Filter>source\brayjl</Filter>
     </ClInclude>
     <ClInclude Include="source\brayjl\entryPoint.hpp">
-      <Filter>brayjl</Filter>
+      <Filter>source\brayjl</Filter>
     </ClInclude>
     <ClInclude Include="source\brayjl\logger.hpp">
-      <Filter>brayjl</Filter>
+      <Filter>source\brayjl</Filter>
     </ClInclude>
-    <ClInclude Include="source\platform\window\Window.hpp">
-      <Filter>platform\window</Filter>
+    <ClInclude Include="source\platform\opengl\shader.hpp">
+      <Filter>source\platform\opengl</Filter>
     </ClInclude>
+    <ClInclude Include="source\platform\window\window.hpp">
+      <Filter>source\platform\window</Filter>
+    </ClInclude>
+    <ClInclude Include="source\brayjl\utils.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="glad.c" />
     <ClCompile Include="source\brayjl\application.cpp">
-      <Filter>brayjl</Filter>
+      <Filter>source\brayjl</Filter>
     </ClCompile>
     <ClCompile Include="source\brayjl\logger.cpp">
-      <Filter>brayjl</Filter>
+      <Filter>source\brayjl</Filter>
     </ClCompile>
-    <ClCompile Include="source\platform\window\Window.cpp">
-      <Filter>platform\window</Filter>
+    <ClCompile Include="source\platform\window\window.cpp">
+      <Filter>source\platform\window</Filter>
     </ClCompile>
+    <ClCompile Include="source\platform\opengl\shader.cpp" />
+    <ClCompile Include="source\brayjl\utils.cpp" />
   </ItemGroup>
 </Project>
