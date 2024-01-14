@@ -12,7 +12,7 @@ brayjl::Shader::~Shader() {
 	glDeleteProgram(m_Id);
 }
 
-void brayjl::Shader::initialize(std::string vertexFilepath, std::string fragmentFilepath) {
+void brayjl::Shader::init(std::string vertexFilepath, std::string fragmentFilepath) {
 	createShaderProgram(vertexFilepath, fragmentFilepath);
 }
 

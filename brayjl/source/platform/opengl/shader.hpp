@@ -16,7 +16,7 @@ namespace brayjl {
 		Shader();
 		~Shader();
 
-		void initialize(std::string vertexFilepath, std::string fragmentFilepath);
+		void init(std::string vertexFilepath, std::string fragmentFilepath);
 		
 		void use() { glUseProgram(m_Id); }
 	private:

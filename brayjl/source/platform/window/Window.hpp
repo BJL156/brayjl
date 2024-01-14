@@ -21,6 +21,8 @@ namespace brayjl {
 	private:
 		void createGlfwWindow();
 
+		static void framebufferResizeCallback(GLFWwindow* window, int width, int height);
+
 		std::uint32_t m_Width;
 		std::uint32_t m_Height;
 		std::string m_Name;

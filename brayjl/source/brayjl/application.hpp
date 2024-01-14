@@ -1,7 +1,8 @@
 #ifndef APPLICATION_HPP
 #define APPLICATION_HPP
 
-#include "platform/window/Window.hpp"
+#include "platform/window/window.hpp"
+#include "platform/opengl/renderer.hpp"
 
 namespace brayjl {
 	class Application {
@@ -12,6 +13,7 @@ namespace brayjl {
 		void run();
 	private:
 		Window window{ 800, 600, "brayjl engine" };
+		Renderer renderer{ true };
 	};
 }
 

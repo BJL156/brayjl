@@ -96,6 +96,10 @@
     <ClCompile Include="source\sandbox.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="resources\shaders\example.frag" />
+    <None Include="resources\shaders\example.vert" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\brayjl\brayjl.vcxproj">
       <Project>{69BDBEF4-555F-E9CA-3E1A-FD1E2A5B701B}</Project>
     </ProjectReference>

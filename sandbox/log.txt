@@ -1,5 +1,5 @@
-[2023-12-29 20:15:51.364] [brayjl] [info] creating application.
-[2023-12-29 20:15:51.364] [brayjl] [info] creating glfw window (800, 600) "brayjl engine".
-[2023-12-29 20:15:51.529] [brayjl] [info] application created successfully.
-[2023-12-29 20:15:52.685] [brayjl] [warning] shutting down application.
-[2023-12-29 20:15:52.692] [brayjl] [warning] shutting down glfw window.
+[2024-01-14 13:34:47.620] [brayjl] [info] creating application.
+[2024-01-14 13:34:47.622] [brayjl] [info] creating glfw window (800, 600) "brayjl engine".
+[2024-01-14 13:34:48.064] [brayjl] [info] application created successfully.
+[2024-01-14 13:34:56.070] [brayjl] [warning] shutting down application.
+[2024-01-14 13:34:56.070] [brayjl] [warning] shutting down glfw window.

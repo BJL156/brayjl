@@ -19,7 +19,9 @@ project "brayjl"
 		"brayjl/**.c",
 		"brayjl/**.h",
 		"brayjl/**.cpp",
-		"brayjl/**.hpp"
+		"brayjl/**.hpp",
+		"brayjl/**.vert",
+		"brayjl/**.frag"
 	}
 
 	includedirs {
@@ -57,7 +59,9 @@ project "sandbox"
 		"sandbox/**.c",
 		"sandbox/**.h",
 		"sandbox/**.cpp",
-		"sandbox/**.hpp"
+		"sandbox/**.hpp",
+		"sandbox/**.vert",
+		"sandbox/**.frag"
 	}
 
 	includedirs {

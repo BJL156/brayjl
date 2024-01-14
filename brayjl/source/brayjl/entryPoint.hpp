@@ -17,6 +17,8 @@ int main() {
 
 	BRAYJL_CORE_WARN("shutting down application.");
 	delete app;
+
+	return 0;
 }
 
 #endif // !ENTRYPOINT_HPP

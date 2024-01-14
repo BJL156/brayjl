@@ -99,6 +99,7 @@
     <ClInclude Include="source\brayjl\entryPoint.hpp" />
     <ClInclude Include="source\brayjl\logger.hpp" />
     <ClInclude Include="source\brayjl\utils.hpp" />
+    <ClInclude Include="source\platform\opengl\renderer.hpp" />
     <ClInclude Include="source\platform\opengl\shader.hpp" />
     <ClInclude Include="source\platform\window\window.hpp" />
   </ItemGroup>
@@ -107,6 +108,7 @@
     <ClCompile Include="source\brayjl\application.cpp" />
     <ClCompile Include="source\brayjl\logger.cpp" />
     <ClCompile Include="source\brayjl\utils.cpp" />
+    <ClCompile Include="source\platform\opengl\renderer.cpp" />
     <ClCompile Include="source\platform\opengl\shader.cpp" />
     <ClCompile Include="source\platform\window\window.cpp" />
   </ItemGroup>

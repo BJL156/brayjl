@@ -1,4 +1,4 @@
-#include "Window.hpp"
+#include "window.hpp"
 
 namespace brayjl {
 	Window::Window(std::uint32_t width, std::uint32_t height, std::string name)
@@ -35,9 +35,20 @@ namespace brayjl {
 			BRAYJL_CORE_ERROR("failed to create glfw window.");
 		}
 		glfwMakeContextCurrent(m_Window);
+		glfwSetWindowUserPointer(m_Window, this);
+		glfwSetFramebufferSizeCallback(m_Window, framebufferResizeCallback);
 
 		if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
 			BRAYJL_CORE_ERROR("failed to initialize glad.");
 		}
+	}
+
+	void Window::framebufferResizeCallback(GLFWwindow* window, int width, int height) {
+		Window* p_WindowObj = reinterpret_cast<Window*>(glfwGetWindowUserPointer(window));
+		p_WindowObj->m_Width = width;
+		p_WindowObj->m_Height = height;
+		glViewport(0, 0, p_WindowObj->m_Width, p_WindowObj->m_Height);
+
+		BRAYJL_CORE_INFO("framebuffer resize: ({}, {})", p_WindowObj->m_Width, p_WindowObj->m_Height);
 	}
 }

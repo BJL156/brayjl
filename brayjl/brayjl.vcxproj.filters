@@ -30,13 +30,18 @@
     <ClInclude Include="source\brayjl\logger.hpp">
       <Filter>source\brayjl</Filter>
     </ClInclude>
+    <ClInclude Include="source\brayjl\utils.hpp">
+      <Filter>source\brayjl</Filter>
+    </ClInclude>
+    <ClInclude Include="source\platform\opengl\renderer.hpp">
+      <Filter>source\platform\opengl</Filter>
+    </ClInclude>
     <ClInclude Include="source\platform\opengl\shader.hpp">
       <Filter>source\platform\opengl</Filter>
     </ClInclude>
     <ClInclude Include="source\platform\window\window.hpp">
       <Filter>source\platform\window</Filter>
     </ClInclude>
-    <ClInclude Include="source\brayjl\utils.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c" />
@@ -46,10 +51,17 @@
     <ClCompile Include="source\brayjl\logger.cpp">
       <Filter>source\brayjl</Filter>
     </ClCompile>
+    <ClCompile Include="source\brayjl\utils.cpp">
+      <Filter>source\brayjl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\platform\opengl\renderer.cpp">
+      <Filter>source\platform\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="source\platform\opengl\shader.cpp">
+      <Filter>source\platform\opengl</Filter>
+    </ClCompile>
     <ClCompile Include="source\platform\window\window.cpp">
       <Filter>source\platform\window</Filter>
     </ClCompile>
-    <ClCompile Include="source\platform\opengl\shader.cpp" />
-    <ClCompile Include="source\brayjl\utils.cpp" />
   </ItemGroup>
 </Project>

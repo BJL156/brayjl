@@ -12,6 +12,8 @@ namespace brayjl {
 	void Application::run() {
 		while (!window.shouldClose()) {
 			window.update();
+
+			renderer.draw();
 		}
 	}
 }

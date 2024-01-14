@@ -1,3 +1,7 @@
+D:\dev\brayjl\brayjl\glad.c;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\glad.obj
 D:\dev\brayjl\brayjl\source\brayjl\application.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\application.obj
 D:\dev\brayjl\brayjl\source\brayjl\logger.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\logger.obj
-D:\dev\brayjl\brayjl\source\platform\window\Window.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\Window.obj
+D:\dev\brayjl\brayjl\source\brayjl\utils.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\utils.obj
+D:\dev\brayjl\brayjl\source\platform\opengl\renderer.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\renderer.obj
+D:\dev\brayjl\brayjl\source\platform\opengl\shader.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\shader.obj
+D:\dev\brayjl\brayjl\source\platform\window\window.cpp;D:\dev\brayjl\bin\Debug\obj\Debug\brayjl\window.obj
